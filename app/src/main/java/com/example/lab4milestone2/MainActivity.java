@@ -131,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             TextView addressTextView = (TextView) findViewById(R.id.addressTextView);
+            addressTextView.setText("Address: " + address);
         } catch(IOException e) {
             e.printStackTrace();
         }
